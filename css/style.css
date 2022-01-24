@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.base-image {
+    position: fixed;
+    inset: 0px;
+    background-image: url(../images/bg-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
+.items {
+    transition: all 0.3s ease;
+}
+.items:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
